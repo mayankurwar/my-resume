@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(50 144 129);
+    
+
+}
+#logo{
+    padding: 0px 15px;
+}
+#parentdiv{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: rgb(165, 125, 150);
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#search{
+    
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2px;
+    padding:10px 0px;
+}
+#blankspace{ 
+    flex-grow: 1;
+}
+    
+/* #logoimg{
+    height: 50px;
+    width:50px;
+} */
+.list{
+    font-size: 18px;
+}
+#secondparent{
+
+    height: 550px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#secondparentchild1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    /* box-shadow: 5px 5px 6px 6px black; */
+
+}
+
+#para{
+
+    
+    
+}
+#img2{
+    
+    height: 50px;
+  
+}
+#secondparentchild1box1{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+    height: 80%;
+
+    
+    
+
+
+}
+#picture{
+    width: 50%;
+
+    height: 100%;
+    
+}
+#img2{
+    height :100%;
+    width: 100%;
+
+}
+#childpara{
+    text-align: justify;
+
+}
+.btn{
+    /* background-color: black; */
+    background-color: rgb(43, 34, 34);
+    color:white;
+    
+
+}
+#input1{
+    border-radius: 4px;
+    padding :0px 15px; 
+
+}
+#input2{
+    border-radius: 4px;
+}
+#heading{
+    color: rgb(230, 95, 185);
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+     
+#thirdportion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#services{
+    color: blue;
+}
+#portfolio{
+    font-size:large;
+    font-weight: bold;
+}
+
+/* #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(230, 95, 185) ;
+}
+#h2{
+    text-align: center;
+    margin: 19px 0px 8px 0px;
+
+}
+#hr{
+    width: 80px;
+    color: black;
+}
+#container1lists{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.list{
+    margin: 2px 5px;
+} */
